@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package net.scutes_expanded.platform.services;
 
 public interface IPlatformHelper {
 
