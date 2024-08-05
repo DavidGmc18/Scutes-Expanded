@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "scutes_expanded:turtle_scute_block",
+    "scutes_expanded:armadillo_scute_block"
+  ]
+}
