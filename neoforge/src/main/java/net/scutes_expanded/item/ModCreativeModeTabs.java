@@ -16,9 +16,9 @@ import java.util.Set;
 public class ModCreativeModeTabs {
     public static DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Constants.MOD_ID);
 
-    public static String SCUTESEXPANDED_TAB_TITLE = "itemgroup.scutesexpanded";
+    public static String SCUTES_EXPANDED_TAB_TITLE = "itemgroup.scutes_expanded";
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCUTESEXPANDED_TAB = CREATIVE_MODE_TABS.register("scutesexpanded_tab", () -> {
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCUTES_EXPANDED_TAB = CREATIVE_MODE_TABS.register("scutes_expanded_tab", () -> {
         CreativeModeTab.Builder builder = CreativeModeTab.builder();
 
         builder.displayItems((itemDisplay, output) -> {
@@ -39,7 +39,7 @@ public class ModCreativeModeTabs {
         });
 
         builder.icon(() -> new ItemStack(ModBlocks.TURTLE_SCUTE_BLOCK.get()));
-        builder.title(Component.translatable(SCUTESEXPANDED_TAB_TITLE));
+        builder.title(Component.translatable(SCUTES_EXPANDED_TAB_TITLE));
 
         return builder.build();
     });

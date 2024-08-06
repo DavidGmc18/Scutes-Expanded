@@ -27,6 +27,7 @@ public class ModBlocks {
         return Registry.register(BuiltInRegistries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID , name),
                 new BlockItem(block, new Item.Properties()));
     }
+
     public static void registerModBlocks() {
         Constants.LOG.info("Registering ModBlocks for " + Constants.MOD_ID);
     }

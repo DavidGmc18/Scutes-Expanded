@@ -11,9 +11,9 @@ import net.scutes_expanded.Constants;
 import net.scutes_expanded.block.ModBlocks;
 
 public class ModCreativeModTabs {
-    public static final CreativeModeTab SCUTESEXPANDED_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scutesexpanded"),
-            FabricItemGroup.builder().title(Component.translatable("itemgroup.scutesexpanded"))
+    public static final CreativeModeTab SCUTES_EXPANDED_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scutes_expanded"),
+            FabricItemGroup.builder().title(Component.translatable("itemgroup.scutes_expanded"))
                     .icon(() -> new ItemStack(ModBlocks.TURTLE_SCUTE_BLOCK.asItem())).displayItems((FabricItemGroupEntries , entries) -> {
                         entries.accept(ModBlocks.TURTLE_SCUTE_BLOCK);
                         entries.accept(ModBlocks.ARMADILLO_SCUTE_BLOCK);

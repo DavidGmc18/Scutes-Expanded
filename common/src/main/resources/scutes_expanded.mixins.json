@@ -6,8 +6,11 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
+    "MobMixin",
+    "SpiderMixin"
   ],
-  "server": [],
+  "server": [
+  ],
   "injectors": {
     "defaultRequire": 1
   }
