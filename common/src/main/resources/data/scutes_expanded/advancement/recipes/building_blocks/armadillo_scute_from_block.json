@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:armadillo_scute"
+            "items": "scutes_expanded:armadillo_scute_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "scutes_expanded:armadillo_scute_block"
+        "recipe": "scutes_expanded:armadillo_scute_from_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "scutes_expanded:armadillo_scute_block"
+      "scutes_expanded:armadillo_scute_from_block"
     ]
   }
 }

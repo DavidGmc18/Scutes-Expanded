@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_terracotta": {
+    "has_turtle_scute": {
       "conditions": {
         "items": [
           {

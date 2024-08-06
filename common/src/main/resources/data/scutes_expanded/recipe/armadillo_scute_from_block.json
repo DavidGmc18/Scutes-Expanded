@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "armadillo_scute",
+  "ingredients": [
+    {
+      "item": "scutes_expanded:armadillo_scute_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:armadillo_scute"
+  }
+}
