@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "scutes_expanded:green_dye_from_turtle_scute"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turtle_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_scute"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_turtle_scute"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "scutes_expanded:green_dye_from_turtle_scute"
+    ]
+  }
+}

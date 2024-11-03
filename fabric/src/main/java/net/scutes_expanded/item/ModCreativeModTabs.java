@@ -17,6 +17,13 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModBlocks.TURTLE_SCUTE_BLOCK.asItem())).displayItems((FabricItemGroupEntries , entries) -> {
                         entries.accept(ModBlocks.TURTLE_SCUTE_BLOCK);
                         entries.accept(ModBlocks.ARMADILLO_SCUTE_BLOCK);
+                        entries.accept(ModItems.ARMADILLO_HELMET);
+                        entries.accept(ModItems.ARMADILLO_CHESTPLATE);
+                        entries.accept(ModItems.ARMADILLO_LEGGINGS);
+                        entries.accept(ModItems.ARMADILLO_BOOTS);
+                        entries.accept(ModItems.TURTLE_CHESTPLATE);
+                        entries.accept(ModItems.TURTLE_LEGGINGS);
+                        entries.accept(ModItems.TURTLE_BOOTS);
                     }).build());
 
 
