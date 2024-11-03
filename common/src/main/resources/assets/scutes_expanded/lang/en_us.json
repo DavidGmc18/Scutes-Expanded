@@ -2,5 +2,13 @@
   "block.scutes_expanded.turtle_scute_block": "Turtle Scute Block",
   "block.scutes_expanded.armadillo_scute_block": "Armadillo Scute Block",
 
+  "item.scutes_expanded.turtle_chestplate": "Turtle Chestplate",
+  "item.scutes_expanded.turtle_leggings": "Turtle Leggings",
+  "item.scutes_expanded.turtle_boots": "Turtle Boots",
+  "item.scutes_expanded.armadillo_helmet": "Armadillo helmet",
+  "item.scutes_expanded.armadillo_chestplate": "Armadillo Chestplate",
+  "item.scutes_expanded.armadillo_leggings": "Armadillo Leggings",
+  "item.scutes_expanded.armadillo_boots": "Armadillo Boots",
+
   "itemgroup.scutes_expanded": "Scutes Expanded Tab"
 }
