@@ -7,16 +7,12 @@
     "authors": [
         "${mod_author}"
     ],
-    "contact": {
-        "homepage": "https://github.com/DavidGmc18/Scutes-Expanded",
-        "sources": "https://github.com/DavidGmc18/Scutes-Expanded"
-    },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "net.scutes_expanded.ScutesExpanded"
+            "${group}.${mod_name}"
         ]
     },
     "mixins": [
@@ -26,11 +22,9 @@
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
-        "minecraft": "${minecraft_version}",
+        "minecraft": "~${minecraft_version}",
         "java": ">=${java_version}"
     },
-    "suggests": {
-        "another-mod": "*"
-    }
+    "accessWidener" : "${mod_id}.accesswidener"
 }
   
